@@ -1,10 +1,20 @@
-function soyAsincrona(){
-    console.log('Hola soy una función asincrona');
+function hola(nombre, miCallback){
     setTimeout(function() {
-        console.log('Estoy siendo asincrona');
+        console.log('Hola ' + nombre);
+        miCallback(nombre);
     }, 1000)
 };
 
+function adios(nombre, otroCallback){
+    setTimeout(function() {
+        console.log('Adios ' + nombre);
+        otroCallback();
+    }, 1000)
+}
+
 console.log('Iniciando proceso...');
-soyAsincrona();
-console.log('Terminando proceso...');
+hola('Jose', function(nombre) {
+    adios(nombre, function() {
+        console.log('Terminando proceso...');
+    });
+});
