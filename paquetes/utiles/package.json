@@ -1,0 +1,31 @@
+{
+  "name": "utiles",
+  "version": "1.0.0",
+  "description": "paquetes de uso frecuente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcasadiego/fundamentos-nodejs-platzi.git"
+  },
+  "keywords": [
+    "npm",
+    "modulos",
+    "js",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Jose Casadiego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcasadiego/fundamentos-nodejs-platzi/issues"
+  },
+  "homepage": "https://github.com/jcasadiego/fundamentos-nodejs-platzi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "moment": "^2.29.3",
+    "sharp": "^0.30.6"
+  }
+}
