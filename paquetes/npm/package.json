@@ -1,0 +1,28 @@
+{
+  "name": "fundamentos-nodejs-platzi",
+  "version": "1.0.0",
+  "description": "curso de fundamentos de nodejs de platzi, modulo de paquetes npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcasadiego/fundamentos-nodejs-platzi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "npm",
+    "js"
+  ],
+  "author": "José Casadiego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcasadiego/fundamentos-nodejs-platzi/issues"
+  },
+  "homepage": "https://github.com/jcasadiego/fundamentos-nodejs-platzi#readme",
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  }
+}
